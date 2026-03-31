@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BLACK CHAMELEON — Sports Goggle</title>
+  <meta name="description" content="A sports goggle brand born from the chameleon's instinct to adapt. Nature's colors. Your vision." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div id="scroll-bar"></div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <img src="assets/logo-dark.png" alt="BLACK CHAMELEON" />
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="brand.html">Brand</a></li>
+      <li><a href="products.html">Products</a></li>
+    </ul>
+    <a href="https://smartstore.naver.com/blackchameleo" target="_blank" class="nav-cta">BUY NOW</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-slides">
+    <div class="hero-slide active" style="background-image: url('assets/hero-slide-0.jpg');"></div>
+    <div class="hero-slide" style="background-image: url('assets/hero-slide-2.jpg');"></div>
+    <div class="hero-slide" style="background-image: url('assets/hero-slide-3.jpg');"></div>
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-inner">
+    <div class="hero-content">
+      <h1 class="hero-title">BLACK<br><em>CHAMELEON</em></h1>
+      <p class="hero-sub">Nature's colors. Your vision.</p>
+    </div>
+  </div>
+  <button class="hero-arrow hero-arrow--prev" onclick="heroStep(-1)" aria-label="Previous slide">&#8592;</button>
+  <button class="hero-arrow hero-arrow--next" onclick="heroStep(1)" aria-label="Next slide">&#8594;</button>
+  <div class="hero-dots">
+    <button class="hero-dot active" onclick="heroGoTo(0)" aria-label="Slide 1"></button>
+    <button class="hero-dot" onclick="heroGoTo(1)" aria-label="Slide 2"></button>
+    <button class="hero-dot" onclick="heroGoTo(2)" aria-label="Slide 3"></button>
+  </div>
+</section>
+
+<!-- STATEMENT -->
+<section class="section-statement">
+  <p class="stmt-label reveal">BLACK CHAMELEON</p>
+  <h2 class="stmt-title reveal reveal-delay-1">
+    A <em>chameleon</em> adapts<br>to any environment.
+  </h2>
+  <p class="stmt-body reveal reveal-delay-2">
+    One necessity discovered alongside countless sports enthusiasts.<br>
+    Unwavering vision in any light, any weather, any sport.<br>
+    BlackChameleon is the answer.
+  </p>
+</section>
+
+<!-- PRODUCTS SHOWCASE -->
+<div class="showcase">
+
+  <!-- VEILED -->
+  <div class="sc-pb reveal" id="veiled">
+    <div class="sc-pb-grid">
+      <div class="sc-pb-title">
+        <p class="showcase-num">01</p>
+        <h2 class="showcase-name">VEILED</h2>
+      </div>
+      <div class="sc-pb-product">
+        <img src="assets/veiled-hero.jpg" alt="Veiled" />
+      </div>
+      <div class="sc-pb-left">
+        <img src="assets/lifestyle-14.jpg" alt="Veiled wearing" />
+      </div>
+    </div>
+    <div class="sc-pb-wide">
+      <img src="assets/lifestyle-4.jpg" alt="" />
+    </div>
+  </div>
+
+  <!-- PANTHER -->
+  <div class="sc-pb reveal" id="panther">
+    <div class="sc-pb-grid">
+      <div class="sc-pb-title">
+        <p class="showcase-num">02</p>
+        <h2 class="showcase-name">PANTHER</h2>
+      </div>
+      <div class="sc-pb-product">
+        <img src="assets/panther-hero.jpg" alt="Panther" />
+      </div>
+      <div class="sc-pb-left">
+        <img src="assets/lifestyle-15.jpg" alt="Panther wearing" />
+      </div>
+    </div>
+    <div class="sc-pb-wide">
+      <img src="assets/lifestyle-16.jpg" alt="" />
+    </div>
+  </div>
+
+  <!-- PARSON -->
+  <div class="sc-pb reveal" id="parson">
+    <div class="sc-pb-grid">
+      <div class="sc-pb-title">
+        <p class="showcase-num">03</p>
+        <h2 class="showcase-name">PARSON</h2>
+      </div>
+      <div class="sc-pb-product">
+        <img src="assets/parson-2-hero.jpg" alt="Parson" />
+      </div>
+      <div class="sc-pb-left">
+        <img src="assets/lifestyle-17.jpg" alt="Parson wearing" />
+      </div>
+    </div>
+    <div class="sc-pb-wide">
+      <img src="assets/lifestyle-18.jpg" alt="" />
+    </div>
+  </div>
+
+</div><!-- /.showcase -->
+
+<!-- BRAND STRIP -->
+<div class="brand-strip">
+  <div class="c-wrap">
+    <div>
+      <h2 class="bs-title">A <em>chameleon</em> adapts<br>to any environment.</h2>
+    </div>
+    <div>
+      <p class="bs-body">One necessity discovered alongside countless sports enthusiasts.<br>Unwavering vision in any light, any weather, any sport.<br>BlackChameleon is the answer.</p>
+      <a href="brand.html" class="bs-link">
+        Our Story
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 7h12M7 1l6 6-6 6"/></svg>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="c-wrap">
+    <div class="footer-brand">
+      <img src="assets/logo-white.png" alt="BLACK CHAMELEON" />
+    </div>
+    <div class="footer-cols">
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <a href="index.html">Home</a>
+        <a href="brand.html">Brand</a>
+        <a href="products.html">Products</a>
+      </div>
+      <div class="footer-col">
+        <h4>Products</h4>
+        <a href="products.html#veiled">Veiled — Full Frame</a>
+        <a href="products.html#panther">Panther — Half Frame</a>
+        <a href="products.html#parson">Parson — Rimless</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="footer-bottom">
+  <div class="c-wrap">
+    <p>© 2026 BLACK CHAMELEON. All rights reserved.</p>
+    <p>Nature's colors. Your vision.</p>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
